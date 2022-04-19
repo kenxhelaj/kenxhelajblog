@@ -7,7 +7,7 @@ async function generate() {
   const feed = new RSS({
     title: 'Ken Xhelaj',
     site_url: 'https://kenxhelajblog.vercel.app/',
-    feed_url: 'https://kenxhelajblog.vercel.app//feed.xml'
+    feed_url: 'https://kenxhelajblog.vercel.app/feed.xml'
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))

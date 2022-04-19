@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Logo from 'C:\Users\Ken\Documents\kenxhelajblog\logo.png'
 export default function Document() {
   const meta = {
-    title: "Ken Xhelaj's space"
+    title: "Ken Xhelaj's space",
     description: 'Thoughts, experiences, photos, my mind',
     image: 'Logo'
   }
