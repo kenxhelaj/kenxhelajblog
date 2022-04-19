@@ -1,10 +1,11 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-
+import Image from 'next/image'
+import Logo from 'C:\Users\Ken\Documents\kenxhelajblog\logo.png'
 export default function Document() {
   const meta = {
-    title: 'Next.js Blog Starter Kit',
-    description: 'Clone and deploy your own Next.js portfolio in minutes.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    title: "Ken Xhelaj's space"
+    description: 'Thoughts, experiences, photos, my mind',
+    image: 'Logo'
   }
 
   return (
