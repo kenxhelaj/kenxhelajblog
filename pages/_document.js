@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import Image from 'next/image'
-import Logo from 'C:\Users\Ken\Documents\kenxhelajblog\logo.png'
+import Logo from 'logo.png'
 export default function Document() {
   const meta = {
     title: "Ken Xhelaj's space",
