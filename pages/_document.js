@@ -5,7 +5,7 @@ export default function Document() {
   const meta = {
     title: "Ken Xhelaj's space",
     description: 'Thoughts, experiences, photos, my mind',
-    image: 'Logo'
+    image: Logo
   }
 
   return (
