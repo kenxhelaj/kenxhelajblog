@@ -1,4 +1,4 @@
-const YEAR = new Date().getFullYear()
+const YEAR = new Date().getFullYear();
 
 export default {
   footer: (
@@ -17,5 +17,5 @@ export default {
         }
       `}</style>
     </small>
-  )
-}
+  ),
+};
