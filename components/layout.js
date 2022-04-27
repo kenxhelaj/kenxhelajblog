@@ -42,19 +42,21 @@ export default function Blog(props) {
         <>
           {sharedHead}
           <Header />
-          {pages.map((p) => (
-            <li
-              key={p.frontMatter.slug}
-              className="flex items-center space-x-3"
-            >
-              <span className="block text-gray-500 w-[9.5rem] text-right">
-                {p.frontMatter.date}
-              </span>
-              <Link href={p.route}>
-                <a className="block font-bold">{p.frontMatter.title}</a>
-              </Link>
-            </li>
-          ))}
+          <div>
+            {pages.map((p) => (
+              <li
+                key={p.frontMatter.slug}
+                className="flex items-center space-x-3"
+              >
+                <span className="block text-gray-500 w-[9.5rem] text-right">
+                  {p.frontMatter.date}
+                </span>
+                <Link href={p.route}>
+                  <a className="block font-bold">{p.frontMatter.title}</a>
+                </Link>
+              </li>
+            ))}
+          </div>
         </>
       );
     };
